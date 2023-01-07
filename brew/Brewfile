@@ -4,7 +4,10 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+########################################
 # general tools
+########################################
+
 brew "mas" # required to install apps from MacAppStore
 brew "zsh" # my favorite shell
 cask "rectangle" # window manager
@@ -13,7 +16,22 @@ cask "Firefox"
 mas "Amphetamine", id: 937984704
 mas "Keka", id: 470158793
 
+########################################
 # general development tools
+########################################
+
 cask "iterm2"
+
+# editors
+brew "neovim"
+brew "ripgrep" # requirement for telescope.nvim
+brew "fd" # requirement for telescope.nvim
+
+# git stuff
+brew "gh"
+brew "git-flow"
+brew "pre-commit"
+
+# Some other development related tooling
 cask "fig"
 mas "Kaleidoscope", id: 587512244
