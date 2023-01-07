@@ -12,8 +12,8 @@ This repository contains scripts and configuration files to quickly setup my dev
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 5. Install non default programs by running `sh ./brew/install.sh`:
-6. Configure workstation by running:<br />`sh configure-workstation.sh`
-7. Import `iterm/flxdot_config.json` in iTerm2
+6. Configure workstation by running:<br />`sh ./iterm/configure-workstation.sh`
+7. Import `./iterm/flxdot_config.json` in iTerm2
 
 ## Other helpful scripts to quickly start
 
