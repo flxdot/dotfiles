@@ -1,2 +1,2 @@
-brew "rust"
+brew "rustup-init"
 
