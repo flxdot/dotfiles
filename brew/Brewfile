@@ -35,3 +35,6 @@ brew "pre-commit"
 # Some other development related tooling
 cask "fig"
 mas "Kaleidoscope", id: 587512244
+
+# Some network tools
+cask "wireshark"
