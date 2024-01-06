@@ -10,7 +10,7 @@ tap "homebrew/services"
 
 brew "mas" # required to install apps from MacAppStore
 brew "zsh" # my favorite shell
-brew gnupg # PGP encryption
+brew "gnupg" # PGP encryption
 cask "rectangle" # window manager
 cask "1Password"
 cask "Firefox"
