@@ -5,6 +5,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 # python Development Tools
-brew "python@3.11"
-brew "poetry"
+brew "python@3.12"
+brew "uv"
 cask "pycharm"
